@@ -1,0 +1,168 @@
+*{
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #0b1220;
+  color: #e5e7eb;
+}
+
+.container {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.subtitle {
+  margin: 8px 0 0;
+  color: #b7c0d1;
+}
+
+.card {
+  background: #121a2b;
+  border: 1px solid #22304b;
+  border-radius: 14px;
+  padding: 18px;
+  margin: 14px 0;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.label {
+  font-weight: 700;
+  color: #c9d2e3;
+}
+
+.select {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #2b3a5c;
+  background: #0f172a;
+  color: #e5e7eb;
+  min-width: 260px;
+}
+
+.btn {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #3b82f6;
+  color: white;
+  font-weight: 700;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn.secondary {
+  background: #64748b;
+}
+
+.btn.danger {
+  background: #ef4444;
+}
+
+.status {
+  margin-top: 12px;
+  color: #b7c0d1;
+  min-height: 18px;
+}
+
+.hidden {
+  display: none;
+}
+
+.quiz-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.progress, .score {
+  color: #b7c0d1;
+  font-weight: 700;
+}
+
+.question {
+  margin: 10px 0 14px;
+  font-size: 22px;
+}
+
+.options {
+  display: grid;
+  gap: 10px;
+}
+
+.option-btn {
+  text-align: left;
+  padding: 12px 12px;
+  border-radius: 12px;
+  border: 1px solid #2b3a5c;
+  background: #0f172a;
+  color: #e5e7eb;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.option-btn:hover {
+  border-color: #3b82f6;
+}
+
+.option-btn.correct {
+  border-color: #22c55e;
+  background: rgba(34, 197, 94, 0.15);
+}
+
+.option-btn.wrong {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.15);
+}
+
+.option-btn.disabled {
+  cursor: not-allowed;
+  opacity: 0.9;
+}
+
+.feedback {
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #2b3a5c;
+  background: #0f172a;
+  color: #c9d2e3;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 18px;
+  color: #8ea0bd;
+}
