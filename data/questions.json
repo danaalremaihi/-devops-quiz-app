@@ -1,1 +1,265 @@
-[]
+[
+  {
+    "id": "Q1",
+    "topic": "Git & Version Control",
+    "question": "What is the main purpose of Git?",
+    "options": [
+      "To design websites",
+      "To track changes in files and collaborate",
+      "To run virtual machines",
+      "To host databases"
+    ],
+    "answerIndex": 1,
+    "explanation": "Git helps you track file changes over time and work with others safely."
+  },
+  {
+    "id": "Q2",
+    "topic": "Git & Version Control",
+    "question": "Which command creates a new branch called feature/login?",
+    "options": [
+      "git branch feature/login",
+      "git commit -m \"feature/login\"",
+      "git push feature/login",
+      "git merge feature/login"
+    ],
+    "answerIndex": 0,
+    "explanation": "git branch <name> creates a new branch with that name."
+  },
+  {
+    "id": "Q3",
+    "topic": "Git & Version Control",
+    "question": "What does 'git add .' do?",
+    "options": [
+      "It uploads your project to GitHub",
+      "It stages all changed files for the next commit",
+      "It deletes untracked files",
+      "It creates a new branch"
+    ],
+    "answerIndex": 1,
+    "explanation": "git add . stages changes so they can be included in the next commit."
+  },
+  {
+    "id": "Q4",
+    "topic": "Git & Version Control",
+    "question": "What is a commit in Git?",
+    "options": [
+      "A snapshot of staged changes with a message",
+      "A folder for your project",
+      "A way to rename files",
+      "A server that runs your code"
+    ],
+    "answerIndex": 0,
+    "explanation": "A commit saves a snapshot of your staged changes with a message."
+  },
+  {
+    "id": "Q5",
+    "topic": "Git & Version Control",
+    "question": "What is the main idea of a Pull Request (PR)?",
+    "options": [
+      "To delete a branch",
+      "To request code review and merge changes into main",
+      "To run the app on your computer",
+      "To create a new repository"
+    ],
+    "answerIndex": 1,
+    "explanation": "A PR is used to review changes before merging them into the main branch."
+  },
+
+  {
+    "id": "Q6",
+    "topic": "CI/CD",
+    "question": "What is the main goal of Continuous Integration (CI)?",
+    "options": [
+      "Merge code changes frequently to detect problems early",
+      "Deploy to production without testing",
+      "Avoid using version control",
+      "Stop using branches"
+    ],
+    "answerIndex": 0,
+    "explanation": "CI focuses on frequent integration so issues are found early."
+  },
+  {
+    "id": "Q7",
+    "topic": "CI/CD",
+    "question": "Which is an example of a CI task?",
+    "options": [
+      "Writing a poem",
+      "Running automated tests on every push",
+      "Turning off the internet",
+      "Creating a new laptop user account"
+    ],
+    "answerIndex": 1,
+    "explanation": "CI often runs automated builds/tests whenever code is pushed."
+  },
+  {
+    "id": "Q8",
+    "topic": "CI/CD",
+    "question": "What does Continuous Delivery mean?",
+    "options": [
+      "Code is always in a releasable state, but deployment can be manual",
+      "Deployment happens automatically to production every time",
+      "No testing is needed",
+      "Only one person can deploy"
+    ],
+    "answerIndex": 0,
+    "explanation": "Continuous Delivery means the software is always ready to be released."
+  },
+  {
+    "id": "Q9",
+    "topic": "CI/CD",
+    "question": "What is Continuous Deployment?",
+    "options": [
+      "Deploying only once a year",
+      "Automatically deploying every change that passes the pipeline",
+      "Deploying without any code review",
+      "Never deploying updates"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Deployment automatically deploys changes after passing checks."
+  },
+  {
+    "id": "Q10",
+    "topic": "CI/CD",
+    "question": "Why do we use automated tests in a pipeline?",
+    "options": [
+      "To make the app slower",
+      "To find bugs early and keep quality high",
+      "To remove the need for code",
+      "To avoid using GitHub"
+    ],
+    "answerIndex": 1,
+    "explanation": "Automated tests catch bugs early and prevent bad code from being released."
+  },
+
+  {
+    "id": "Q11",
+    "topic": "Docker & Containers",
+    "question": "What is a container?",
+    "options": [
+      "A physical box for hardware",
+      "A lightweight package that includes an app and its dependencies",
+      "A programming language",
+      "A type of database"
+    ],
+    "answerIndex": 1,
+    "explanation": "Containers bundle the app with what it needs to run, in an isolated way."
+  },
+  {
+    "id": "Q12",
+    "topic": "Docker & Containers",
+    "question": "What is Docker mainly used for?",
+    "options": [
+      "Editing photos",
+      "Packaging and running apps consistently in containers",
+      "Writing essays",
+      "Managing Wi-Fi settings"
+    ],
+    "answerIndex": 1,
+    "explanation": "Docker helps run the same app the same way across different machines."
+  },
+  {
+    "id": "Q13",
+    "topic": "Docker & Containers",
+    "question": "What is a Docker image?",
+    "options": [
+      "A screenshot of a container",
+      "A template used to create containers",
+      "A cloud server",
+      "A Git branch"
+    ],
+    "answerIndex": 1,
+    "explanation": "An image is like a blueprint used to start containers."
+  },
+  {
+    "id": "Q14",
+    "topic": "Docker & Containers",
+    "question": "What is the difference between an image and a container?",
+    "options": [
+      "An image is running; a container is stored",
+      "An image is a blueprint; a container is a running instance",
+      "They are the same thing",
+      "An image is only for Windows"
+    ],
+    "answerIndex": 1,
+    "explanation": "Image = blueprint, Container = running instance created from the image."
+  },
+  {
+    "id": "Q15",
+    "topic": "Docker & Containers",
+    "question": "Why are containers useful in DevOps?",
+    "options": [
+      "They make code disappear",
+      "They help apps run consistently across environments",
+      "They remove the need for servers",
+      "They stop all bugs automatically"
+    ],
+    "answerIndex": 1,
+    "explanation": "Containers reduce 'it works on my machine' problems by keeping environments consistent."
+  },
+
+  {
+    "id": "Q16",
+    "topic": "Monitoring & Reliability",
+    "question": "What is monitoring in DevOps?",
+    "options": [
+      "Watching movies while coding",
+      "Tracking system/app health using metrics and alerts",
+      "Deleting logs every day",
+      "Only checking the system once a month"
+    ],
+    "answerIndex": 1,
+    "explanation": "Monitoring checks health and performance using metrics, logs, and alerts."
+  },
+  {
+    "id": "Q17",
+    "topic": "Monitoring & Reliability",
+    "question": "Which is an example of a metric?",
+    "options": [
+      "CPU usage percentage",
+      "A branch name",
+      "A commit message",
+      "A file extension"
+    ],
+    "answerIndex": 0,
+    "explanation": "CPU usage is a numeric value that shows system load."
+  },
+  {
+    "id": "Q18",
+    "topic": "Monitoring & Reliability",
+    "question": "What is an alert used for?",
+    "options": [
+      "To change code automatically",
+      "To notify the team when something is wrong",
+      "To delete user accounts",
+      "To speed up Wi-Fi"
+    ],
+    "answerIndex": 1,
+    "explanation": "Alerts notify you when a problem happens (like errors or high CPU)."
+  },
+  {
+    "id": "Q19",
+    "topic": "Monitoring & Reliability",
+    "question": "What is the purpose of logs?",
+    "options": [
+      "To store random pictures",
+      "To record events/errors to help debugging",
+      "To create Git branches",
+      "To replace tests"
+    ],
+    "answerIndex": 1,
+    "explanation": "Logs record what happened, which helps when troubleshooting issues."
+  },
+  {
+    "id": "Q20",
+    "topic": "Monitoring & Reliability",
+    "question": "Why is uptime important?",
+    "options": [
+      "It shows how long the system stays available for users",
+      "It measures how fast a keyboard types",
+      "It counts how many commits you made",
+      "It sets the screen brightness"
+    ],
+    "answerIndex": 0,
+    "explanation": "Uptime measures availability—how long the service is running without downtime."
+  }
+]
