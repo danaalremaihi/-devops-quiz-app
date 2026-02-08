@@ -2,12 +2,51 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>DevOps Quiz App</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>DevOps Quiz App</h1>
-  <p>Welcome to the quiz</p>
+  <div class="container">
+    <header class="header">
+      <h1>DevOps Quiz App</h1>
+      <p class="subtitle">Choose a topic and test your knowledge.</p>
+    </header>
+
+    <section class="card">
+      <div class="row">
+        <label for="topicSelect" class="label">Topic</label>
+        <select id="topicSelect" class="select">
+          <option value="">Loading topics...</option>
+        </select>
+        <button id="startBtn" class="btn" disabled>Start Quiz</button>
+      </div>
+
+      <div id="status" class="status"></div>
+    </section>
+
+    <section id="quizCard" class="card hidden">
+      <div class="quiz-top">
+        <div id="progress" class="progress"></div>
+        <div id="score" class="score"></div>
+      </div>
+
+      <h2 id="questionText" class="question"></h2>
+
+      <div id="options" class="options"></div>
+
+      <div id="feedback" class="feedback hidden"></div>
+
+      <div class="actions">
+        <button id="nextBtn" class="btn secondary hidden">Next</button>
+        <button id="restartBtn" class="btn danger hidden">Restart</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <small>Built with HTML, CSS, and JavaScript (no frameworks).</small>
+    </footer>
+  </div>
 
   <script src="app.js"></script>
 </body>
